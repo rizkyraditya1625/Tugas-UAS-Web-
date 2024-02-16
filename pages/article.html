@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+    <!--Nama    : Mochamad Rizky Raditya Pratama
+        NIM     : 10123359
+        Kelas   : IF9   -->
+        <head>
+            <title>Mochamad Rizky Raditya Website</title>
+            <link rel="stylesheet" type="text/css" href="../css/style2.css">
+            <link rel="stylesheet" type="text/css" href="../css/navbar.css">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        </head>
+
+        <body>
+                <nav class="navbar">
+                    <div class="containerNav">
+                    
+                    <a class="logoNav">Web Rizky</a>
+                    
+                    <ul class="menu">
+                        <li><a href="../index.html">Home</a></li>
+                        <li><a href="article.html">Articles</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="aboutme.html">About me</a></li>
+                        <li><a href="cv.html">Curriculum Vitae</a></li>
+                    </ul>
+                    
+                    
+                    <div class="tombol">
+                    &#9776;
+                    </div>
+                    
+                    </div>
+                </nav>
+                
+                    
+                    <script type="text/javascript">
+                    // deklarasi tombol dan menu
+                    const tombol = document.querySelector('.tombol');
+                    const menu = document.querySelector('.menu');
+                    
+                    // membuat event click
+                    // pada saat tombol di click, tambahkan class aktif pada class menu
+                    // saat diklik lagi, maka class aktif dihilangkan dari class menu (toggle)
+                    tombol.addEventListener('click', () => {
+                    menu.classList.toggle('aktif');
+                    });
+                    </script>
+                
+            <div class="container">
+                <hr />
+                <header align="center">
+                    <div class="logo">
+                        <h3>Artikel Sepakbola</h3>
+                    </div>
+                    </header>
+                </header>
+                <article>
+                    <div class="konten">
+                        <div class="judul">
+                            <a href="realmadrid.html">Real Madrid: Sejarah Singkat
+                        </div>
+                                <p><img src="../multimedia/image/realmadrid1.jpg" width="30%"></p>
+                            </a>
+                            <p>Real Madrid adalah salah satu klub sepak bola paling sukses dan 
+                                populer di dunia. Tapi bagaimana semuanya dimulai? Ayo cari tahu.</p>
+                    </div>
+                    <div class="konten">
+                        <div class="judul">
+                            <a href="barcelona.html">Jersey FC Barcelona: Sejarah Gaya dan Kejayaan
+                        </div>
+                                <p><img src="../multimedia/image/barcelona1.jpg" width="30%"></p>
+                            </a>
+                            <p>FC Barcelona adalah salah satu klub sepak bola paling terkenal 
+                                dan sukses di dunia. Tapi seberapa banyak yang Anda ketahui tentang <br />
+                                jerseynya?</p>
+                    </div>
+                    <div class="konten">
+                        <div class="judul">
+                            <a href="bayernmunich.html">FC Bayern: Lebih dari Sekedar Klub Sepak Bola
+                        </div>
+                                <p><img src="../multimedia/image/munchen1.jpg" width=30%></p>
+                            </a>
+                        <p>FC Bayern adalah raksasa sepak bola global dan ikon budaya Jerman.
+                            Ini mewakili nilai-nilai, sejarah, dan identitas bangsa.</p>
+                    </div>
+                </article>
+                <footer style="text-align: center; background-color:gray;">
+                    <p><font color="#ffffff"> Copyright &copy; 2024 M Rizky Raditya.</font></p>
+                </footer>
+            </div>
+        </body>
+        </html>

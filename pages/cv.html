@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tugas membuat cv</title>
+  <script src="https://unpkg.com/feather-icons"></script>
+  <script src="https://feathericons.dev/?iconset=brands"></script>
+  <link rel="stylesheet" type="text/css" href="../css/style.css">
+  <link rel="stylesheet" type="text/css" href="../css/navbar.css">
+</head>
+
+<body>
+  <nav class="navbar">
+    <div class="containerNav">
+    
+    <a class="logoNav">Web Rizky</a>
+    
+    <ul class="menu">
+      <li><a href="../index.html">Home</a></li>
+      <li><a href="article.html">Articles</a></li>
+      <li><a href="contact.html">Contact</a></li>
+      <li><a href="aboutme.html">About me</a></li>
+      <li><a href="cv.html">Curriculum Vitae</a></li>
+    </ul>
+    
+    
+    <div class="tombol">
+    &#9776;
+    </div>
+    
+    </div>
+</nav>
+
+    
+    <script type="text/javascript">
+    // deklarasi tombol dan menu
+    const tombol = document.querySelector('.tombol');
+    const menu = document.querySelector('.menu');
+    
+    // membuat event click
+    // pada saat tombol di click, tambahkan class aktif pada class menu
+    // saat diklik lagi, maka class aktif dihilangkan dari class menu (toggle)
+    tombol.addEventListener('click', () => {
+    menu.classList.toggle('aktif');
+    });
+    </script>
+<br />
+  <div class="container">
+    <div class="profile">
+      <div class="profile_container">
+        <div class="profile_profileImg">
+          <img src="../multimedia/image/IMG_20220803_233610_396-fotor-2024012720500.png" style="border-radius: 50%;">
+        </div>
+        <div>
+          <h1 class="profile_name">
+            <span class="profile_name_firstName">Rizky</span>
+            <span class="profile_name_lastName">Raditya</span>
+          </h1>
+          <p class="profile_title">Curriculum Vitae</p>
+          <p class="description profile_description">
+            Saya merupakan lulusan SMAN 1 CIMAHI. Saya
+            memiliki pengalaman berorganisasi saat SMP dan
+            SMA dengan menjadi anggota OSIS serta aktif
+            mengikuti berbagai organisasi saat kuliah.
+            Sebelumnya saya memiliki pengalaman bekerja
+            selama 4 tahun di toko keluarga sebagai Staf Admin.,
+          </p>
+          <a class="downloadBtn" href="../Mochamad Rizky Raditya Pratama.pdf" download="Resume.pdf">Download CV</a>
+        </div>
+      </div>
+    </div>
+    <div class="group-1">
+      <div class="skills">
+        <h3 class="title">Personal information</h3>
+        <table class="skills_list description">
+        <tr>
+          <th></th>
+          <th></th>
+          </tr>
+          <tr>
+              <td>Nama Lengkap</td>
+              <td>: Mochamad Rizky Raditya Pratama </td>
+          </tr>
+          <tr>
+              <td>Tempat, Tanggal Lahir</td>
+              <td>: Bandung, 16 April 2005 </td>  
+          </tr>
+              <td>Alamat</td>
+              <td>: Gg. Sukarame no.133 RT.003/RW.012 Cibabat-Cimahi</td>
+          <tr>
+              <td>Jenis Kelamin</td>
+              <td>: Laki-laki</td>
+          </tr>
+          <tr>
+              <td>Status</td>
+              <td>: Mahasiswa</td>
+          </tr>
+          <tr>
+              <td>Agama</td>
+              <td>: Islam</td>
+          </tr>
+          <tr>
+              <td>NO HP</td>
+              <td>: 082117700997</td>
+          </tr>
+          <tr>
+              <td>Email</td>
+              <td>: radityar500@gmail.com</td>
+          </tr>
+          </table>
+      </div>
+      </div>
+      <div class="ref">
+        <h3 class="title">Keahlian</h3>
+        <div class="ref_item">
+          <h4 class="ref_name">Mengoperasikan Komputer</h4>
+          <p class="description">: Microsoft Office</p>
+        </div>
+        <div class="ref_item">
+          <h4 class="ref_name">Desain Grafis</h4>
+          <p class="description">: CorelDRAW & Adobe Ilustrator</p>
+        </div>
+        <div class="ref_item">
+          <h4 class="ref_name">Web Development</h4>
+          <p class="description">: HTML & CSS</p>
+        </div>
+      </div>
+    
+      <div class="edu">
+        <h3 class="title">Pendidikan</h3>
+        <div class="edu_item">
+          <h4 class="item_title">Pendidikan Formal</h4>
+          <p class="item_preTitle">2023-Sekarang</p>
+          <p class="item_subtitle">
+            S1 Teknik Informatika Universitas Komputer Indonesia
+          </p><br />
+          <p class="item_preTitle">2020-2023</p>
+          <p class="item_subtitle">
+            SMA Negeri 1 Cimahi
+          </p><br />
+          <p class="item_preTitle">2017-2020</p>
+          <p class="item_subtitle">
+            SMP Negeri 1 Cimahi
+          </p><br />
+          <p class="item_preTitle">2011-2017</p>
+          <p class="item_subtitle">
+            MI Asih Putera
+          </p>
+        </div>
+      <div class="group-2">
+        <div class="edu_item">
+          <h4 class="item_title">Pendidikan Informal</h4>
+          <p class="item_preTitle">2018-2023</p>
+          <p class="item_subtitle">
+            Bimbingan Belajar Ganesha Operation
+          </p><br />
+          <p class="item_preTitle">2016-2019</p>
+          <p class="item_subtitle">
+            Kursus bahasa Inggris English First
+          </p>
+        </div>
+      </div>
+      </div>
+      <div class="certification">
+        <h3 class="title">Organisasi</h3>
+        <div class="certification_item">
+          <p class="item_preTitle">2020-2023</p>
+          <h4 class="item_subtitle">Anggota Osis SMA Negeri 1 Cimahi</h4><br />
+          <p class="item_preTitle">2017-2020</p>
+          <h4 class="item_subtitle">Anggota Osis SMP Negeri 1 Cimahi</h4>
+          <p class="description">
+            Selain itu saya juga mengikuti berbagai organisasi lain di luar sekolah.
+          </p>
+        </div>
+      </div>
+    
+      <div class="interest">
+        <h3 class="title">Hobi</h3>
+        <div class="interest_items">
+          <div class="interest_item">
+            <i data-feather="music"></i>
+            <span>mendengarkan musik</span>
+          </div>
+          <div class="interest_item">
+            <i data-feather="monitor"></i>
+            <span>bermain game</span>
+          </div>
+          <div class="interest_item">
+            <i data-feather="dribbble"></i>
+            <span>menonton bola</span>
+          </div>
+        </div>
+      </div>
+      <hr />
+    
+    <div class="group-3">
+      <div class="contact">
+        <h3 class="title">Kontak</h3>
+        <div class="contact_info">
+          <p class="description">
+            Cimahi, Jawa Barat, Indonesia
+          </p>
+          <p class="description">
+            +62 211 700 997
+          </p>
+          <p class="description">
+            radityar500@gmail.com
+          </p>
+        </div>
+      </div>
+      <div class="social">
+        <h3 class="title">Media Sosial</h3>
+        <div class="social_items">
+          <a href="#" target="_blank" class="social_item">
+          <!-- https://feathericons.dev/?search=instagram&iconset=brands -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" class="main-grid-item-icon" fill="none">
+  <path clip-rule="evenodd" d="M12 5.838a6.162 6.162 0 1 0 0 12.324 6.162 6.162 0 0 0 0-12.324ZM12 16a4 4 0 1 1 0-8 4 4 0 0 1 0 8Z" fill="url(#instagram__a)" fill-rule="evenodd" />
+  <path d="M18.406 7.034a1.44 1.44 0 1 0 0-2.88 1.44 1.44 0 0 0 0 2.88Z" fill="url(#instagram__b)" />
+  <path clip-rule="evenodd" d="M12 0C8.741 0 8.332.014 7.052.072 5.775.131 4.902.333 4.14.63a5.882 5.882 0 0 0-2.125 1.384A5.882 5.882 0 0 0 .63 4.14c-.297.763-.5 1.635-.558 2.912C.014 8.332 0 8.741 0 12c0 3.259.014 3.668.072 4.948.058 1.277.261 2.15.558 2.912.307.79.717 1.459 1.384 2.126A5.882 5.882 0 0 0 4.14 23.37c.764.297 1.636.5 2.913.558C8.332 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 1.277-.059 2.15-.261 2.912-.558a5.884 5.884 0 0 0 2.126-1.384 5.884 5.884 0 0 0 1.384-2.126c.297-.763.5-1.635.558-2.912.058-1.28.072-1.69.072-4.948 0-3.259-.014-3.668-.072-4.948-.059-1.277-.261-2.15-.558-2.912a5.882 5.882 0 0 0-1.384-2.126A5.883 5.883 0 0 0 19.86.63c-.763-.297-1.635-.5-2.912-.558C15.668.014 15.258 0 12 0Zm0 2.162c3.204 0 3.584.012 4.849.07 1.17.054 1.805.249 2.228.413.56.218.96.478 1.38.898.42.42.68.82.898 1.38.164.423.36 1.058.413 2.228.058 1.265.07 1.645.07 4.849s-.012 3.584-.07 4.849c-.054 1.17-.249 1.805-.413 2.228a3.72 3.72 0 0 1-.898 1.38c-.42.42-.82.68-1.38.898-.423.164-1.058.36-2.228.413-1.265.058-1.645.07-4.849.07s-3.584-.012-4.85-.07c-1.169-.054-1.804-.249-2.227-.413a3.719 3.719 0 0 1-1.38-.898c-.42-.42-.68-.82-.898-1.38-.164-.423-.36-1.058-.413-2.228-.058-1.265-.07-1.645-.07-4.849s.012-3.584.07-4.85c.053-1.169.249-1.804.413-2.227.218-.56.478-.96.898-1.38.42-.42.82-.68 1.38-.898.423-.164 1.058-.36 2.228-.413 1.265-.058 1.645-.07 4.849-.07Z" fill="url(#instagram__c)" fill-rule="evenodd" />
+  <defs>
+    <linearGradient gradientUnits="userSpaceOnUse" id="instagram__a" x1="14.101" x2="7.087" y1="-1.272" y2="21.899">
+      <stop stop-color="#515BD4" />
+      <stop offset=".26" stop-color="#9510B8" />
+      <stop offset=".66" stop-color="#E51804" />
+      <stop offset="1" stop-color="#FFBF00" />
+    </linearGradient>
+    <linearGradient gradientUnits="userSpaceOnUse" id="instagram__b" x1="14.101" x2="7.087" y1="-1.272" y2="21.899">
+      <stop stop-color="#515BD4" />
+      <stop offset=".26" stop-color="#9510B8" />
+      <stop offset=".66" stop-color="#E51804" />
+      <stop offset="1" stop-color="#FFBF00" />
+    </linearGradient>
+    <linearGradient gradientUnits="userSpaceOnUse" id="instagram__c" x1="14.101" x2="7.087" y1="-1.272" y2="21.899">
+      <stop stop-color="#515BD4" />
+      <stop offset=".26" stop-color="#9510B8" />
+      <stop offset=".66" stop-color="#E51804" />
+      <stop offset="1" stop-color="#FFBF00" />
+    </linearGradient>
+  </defs>
+</svg>
+            <span>/rizky_raditya12</span>
+          <a href="#" target="_blank" class="social_item">
+            <!-- https://feathericons.dev/?search=facebook&iconset=brands -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" class="main-grid-item-icon" fill="none">
+  <path d="m17.543 13.398.661-4.31h-4.136V6.29c0-1.18.578-2.329 2.43-2.329h1.88V.291S16.673 0 15.042 0c-3.407 0-5.633 2.064-5.633 5.802v3.285H5.622v4.311h3.786v10.42a15.015 15.015 0 0 0 4.66 0v-10.42h3.475Z" fill="#1877F2" />
+</svg>
+            <span>/Rizky Raditya</span>
+          </a>
+          <a href="#" target="_blank" class="social_item">
+            <!-- https://feathericons.dev/?search=linkedin&iconset=brands -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" class="main-grid-item-icon" fill="none">
+  <path d="M5.372 24H.396V7.976h4.976V24ZM2.882 5.79C1.29 5.79 0 4.474 0 2.883a2.882 2.882 0 1 1 5.763 0c0 1.59-1.29 2.909-2.881 2.909ZM23.995 24H19.03v-7.8c0-1.86-.038-4.243-2.587-4.243-2.587 0-2.984 2.02-2.984 4.109V24H8.49V7.976h4.772v2.186h.07c.664-1.259 2.287-2.587 4.708-2.587 5.035 0 5.961 3.316 5.961 7.623V24h-.005Z" fill="#0A66C2" />
+</svg>
+            <span>/mochamadrizkyraditya</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+   
+  <script>
+    feather.replace()
+  </script>
+  <footer style="text-align: center; background-color:gray;">
+    <p><font color="#ffffff"> Copyright &copy; 2024 M Rizky Raditya.</font></p>
+  </footer>
+</body>
+
+</html>

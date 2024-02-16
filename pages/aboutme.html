@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+    <!--Nama    : Mochamad Rizky Raditya Pratama
+        NIM     : 10123359
+        Kelas   : IF9   -->
+        <head>
+            <title>Mochamad Rizky Raditya Website</title>
+            <link rel="stylesheet" type="text/css" href="../css/style2.css">
+            <link rel="stylesheet" type="text/css" href="../css/navbar.css">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        </head>
+
+        <body>
+            <nav class="navbar">
+                <div class="containerNav">
+                
+                <a class="logoNav">Web Rizky</a>
+                
+                <ul class="menu">
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="article.html">Articles</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="aboutme.html">About me</a></li>
+                    <li><a href="cv.html">Curriculum Vitae</a></li>
+                </ul>
+                
+                
+                <div class="tombol">
+                &#9776;
+                </div>
+                
+                </div>
+            </nav>
+            
+                
+                <script type="text/javascript">
+                // deklarasi tombol dan menu
+                const tombol = document.querySelector('.tombol');
+                const menu = document.querySelector('.menu');
+                
+                // membuat event click
+                // pada saat tombol di click, tambahkan class aktif pada class menu
+                // saat diklik lagi, maka class aktif dihilangkan dari class menu (toggle)
+                tombol.addEventListener('click', () => {
+                menu.classList.toggle('aktif');
+                });
+                </script>
+
+            <hr />
+
+            <article>
+                <h1>About Me</h1>
+                    <img src="../multimedia/image/20230923_131229.jpg" width="150"
+                    height="200"/>
+                <p>
+                    Hi, perkenalkan nama saya Mochamad Rizky Raditya Pratama,
+                    ini adalah web pribadi saya. 
+                </p>
+                <p>
+                    Saya adalah mahasiswa teknik 
+                    informatika Universitas Komputer Indonesia.
+                </p>
+                <p>
+                    Saat ini sedang belajar 
+                    pemograman web dasar menggunakan html.
+                </p>
+                <p>
+                    Saya memang masih baru dalam web development, karena itu
+                    saya tidak akan pernah berhenti belajar.
+                </p>
+                <p>
+                    Saya ingin menguasai bahasa HTML, CSS, dan Javascript.
+                </p>
+            </article>
+
+            <hr />
+            <footer style="text-align: left; background-color: gray;">
+                <p><font color="#ffffff"> Copyright &copy; 2024 M Rizky Raditya.</font></p>
+            </footer>
+            <hr />
+        </body>
+        </html>

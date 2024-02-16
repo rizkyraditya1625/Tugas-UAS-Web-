@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+    <!--Nama    : Mochamad Rizky Raditya Pratama
+        NIM     : 10123359
+        Kelas   : IF9   -->
+        <head align="center">
+            <title>Mochamad Rizky Raditya Website</title>
+            <link rel="stylesheet" type="text/css" href="../css/style2.css">
+            <link rel="stylesheet" type="text/css" href="../css/navbar.css">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        </head>
+
+        <body>
+            <nav class="navbar">
+                <div class="containerNav">
+                
+                <a class="logoNav">Web Rizky</a>
+                
+                <ul class="menu">
+                    <li><a href="../Tugas membuat web/index.html">Home</a></li>
+                    <li><a href="../Tugas membuat web/pages/article.html">Articles</a></li>
+                    <li><a href="../Tugas membuat web/pages/contact.html">Contact</a></li>
+                    <li><a href="../Tugas membuat web/pages/aboutme.html">About me</a></li>
+                    <li><a href="../Tugas membuat web/pages/cv.html">Curriculum Vitae</a></li>
+                </ul>
+                
+                
+                <div class="tombol">
+                &#9776;
+                </div>
+                
+                </div>
+            </nav>
+            
+                
+                <script type="text/javascript">
+                // deklarasi tombol dan menu
+                const tombol = document.querySelector('.tombol');
+                const menu = document.querySelector('.menu');
+                
+                // membuat event click
+                // pada saat tombol di click, tambahkan class aktif pada class menu
+                // saat diklik lagi, maka class aktif dihilangkan dari class menu (toggle)
+                tombol.addEventListener('click', () => {
+                menu.classList.toggle('aktif');
+                });
+                </script>
+            <div class="container">
+                
+
+                <hr />
+
+                <header align="left">
+                    <div class="logo">
+                        <h3>Artikel Sepakbola</h3>
+                    </div>
+                    <h1></h1>
+                </header>
+                
+                <hr />
+
+                <article>
+                    <div class="isi">
+                            <div class="judul">Jersey FC Barcelona: Sejarah Gaya dan Kejayaan</div>
+                            <td>
+                                <img src="../multimedia/image/barcelona1.jpg" width="30%">
+                            </td>
+                            <p>
+                                FC Barcelona adalah salah satu klub sepak bola paling terkenal dan sukses di dunia. Tapi seberapa banyak yang Anda ketahui tentang 
+                                jerseynya?
+                            </P>
+                            <p>
+                                Jersey resmi pertama FC Barcelona diadopsi pada tahun 1900, ketika klub didirikan oleh sekelompok pemain Swiss, Inggris dan Catalan.
+                                Jersey itu memiliki garis-garis biru dan merah marun, terinspirasi oleh warna tim Swiss pendiri Joan Gamper, FC Basel.
+                            </p>
+                            <p>
+                                Selama bertahun-tahun, jersey mengalami beberapa perubahan, seperti menambahkan kerah putih, mengubah jumlah garis, dan memasukkan 
+                                bendera Catalan atau lambang klub. Pada tahun 1910, klub mengadakan kompetisi untuk merancang lencana baru, yang dimenangkan oleh 
+                                Carles Comamala, seorang pemain dan mahasiswa kedokteran
+                            </p>
+                            <p>
+                                Jersey itu menjadi simbol kebanggaan dan identitas bagi orang-orang Catalan, terutama selama kediktatoran Franco, ketika klub  
+                                terpaksa mengubah nama, bahasa, dan benderanya. Jersey ini juga menyaksikan banyak momen gemilang, seperti gelar La Liga pertama 
+                                pada tahun 1929, kemenangan 5-0 yang terkenal atas Real Madrid pada tahun 1974, dan Piala Eropa pertama pada tahun 1992.
+                            </p>
+                            <p>
+                                Pada tahun 1998, FC Barcelona menandatangani kesepakatan dengan Nike, menjadi klub Spanyol pertama yang memiliki kit sponsor. 
+                                Sejak itu, jersey ini telah menampilkan berbagai logo, seperti TV3, Unicef, Qatar Foundation, dan Rakuten. Jersey ini juga telah 
+                                bereksperimen dengan gaya yang berbeda, seperti desain setengah-setengah pada tahun 2005, pola kotak-kotak pada tahun 2019, dan 
+                                garis-garis berbayang pada tahun 2021.
+                            </p>
+                            <p>
+                                Jersey saat ini untuk musim 2022/23 terinspirasi oleh tahun 1920-an, yang dianggap sebagai era keemasan pertama klub. Jersey ini 
+                                celana pendek biru dan kaus kaki bergaris.
+                            </p>
+                            <td>
+                                <img src="../multimedia/image/barcelona2.jpg" width="30%">
+                            </td>
+                            <p>
+                                Jersey FC Barcelona lebih dari sekadar sepotong pakaian. Ini adalah cerminan dari sejarah, budaya, dan nilai-nilai klub. Ini adalah  
+                                cara untuk mengekspresikan loyalitas, semangat, dan dukungan untuk tim. Ini adalah cara menjadi cules, penggemar FC Barcelona.
+                            </p>
+                    </div>
+                </article>
+                <hr />
+                <footer style="text-align: center; background-color:gray;">
+                    <p><font color="#ffffff"> Copyright &copy; 2024 M Rizky Raditya.</font></p>
+                </footer>
+            </div>
+        </body>
+</html>
